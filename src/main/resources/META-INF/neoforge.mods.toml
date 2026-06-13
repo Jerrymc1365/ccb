@@ -1,0 +1,36 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+license = "${license}"
+issueTrackerURL = "${issues_track}"
+
+[[mods]]
+modId = "${modid}"
+displayName = "${modname}"
+version = "${version}"
+updateJSONURL="${update_json_url}"
+displayURL = "${displayurl}"
+logoFile = "icon.png"
+authors = "${authors}"
+description = '''${description}\nLicense under ${license_text}'''
+credits="${credits}"
+
+[[mixins]]
+config = "base-ccbtweaks.mixins.json"
+[[mixins]]
+config = "neoforge-ccbtweaks.mixins.json"
+
+[[accessTransformers]]
+file = "META-INF/${scminecraft}-accesstransformer.cfg"
+
+[[dependencies.${modid}]]
+modId = "neoforge"
+type = "required"
+versionRange = "[1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.${modid}]]
+modId = "minecraft"
+type = "required"
+
+

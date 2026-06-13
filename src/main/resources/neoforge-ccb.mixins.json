@@ -1,0 +1,16 @@
+{
+  "package": "org.infpancakefactory.ccb.core.mixin",
+  "required": true,
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_8",
+  "plugin": "org.infpancakefactory.ccb.core.mixin.plugin.ModMixinPlugin",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "modcompat.iris.MixinChunkBorderRenderer",
+    "server.MixinTripWireHookBlock_StringUnpatched"
+  ],
+  "client": [
+  ]
+}

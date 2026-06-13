@@ -1,0 +1,17 @@
+{
+  "ccbtweaks.configuration.title": "次次爆调置设",
+  "ccbtweaks.configuration.section.ccbtweaks.common.toml": "常置",
+  "ccbtweaks.configuration.section.ccbtweaks.common.toml.title": "常置 - 次次爆调置",
+  "ccbtweaks.configuration.section.ccbtweaks.client.toml": "客置",
+  "ccbtweaks.configuration.section.ccbtweaks.client.toml.title": "客置 - 次次爆调置",
+  "tweaks.ccb.org.infpancakefactory.settings.full_bright": "亮",
+  "tweaks.ccb.org.infpancakefactory.settings.full_bright.tooltip": "覆亮",
+  "tweaks.ccb.org.infpancakefactory.settings.vanilla_zombie_max_health": "香草僵始生值",
+  "tweaks.ccb.org.infpancakefactory.settings.vanilla_zombie_max_health.tooltip": "复特性为新福吉二一点一点二〇三前",
+  "tweaks.ccb.org.infpancakefactory.settings.no_fog": "无雾",
+  "tweaks.ccb.org.infpancakefactory.settings.no_fog.tooltip": "禁雾",
+  "tweaks.ccb.org.infpancakefactory.settings.vanilla_string_tripwire_hook_enabled": "香草绊线钩",
+  "tweaks.ccb.org.infpancakefactory.settings.vanilla_string_tripwire_hook_enabled.tooltip": "香草的线特性",
+  "tweaks.ccb.org.infpancakefactory.settings.release_mouse_enabled": "释光标",
+  "tweaks.ccb.org.infpancakefactory.settings.release_mouse_enabled.tooltip": "按键以释光标"
+}

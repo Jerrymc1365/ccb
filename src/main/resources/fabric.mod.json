@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "${modid}",
+  "name": "${modname}",
+  "version": "${version}",
+  "authors": ["${authors}"],
+  "contact": {
+    "sources": "${displayurl}",
+    "issues": "${issues_track}"
+  },
+  "description": "${description}",
+  "icon": "icon.png",
+  "license": "${license}",
+  "environment": "*",
+  "accessWideners": [
+    "${minecraft}-ccbtweaks.accesswidener"
+  ],
+  "entrypoints": {
+    "main": [
+      "${modgroup}.platform.fabric.FabricEntrypoint"
+    ],
+    "client": [
+      "${modgroup}.platform.fabric.FabricClientEntrypoint"
+    ],
+    "fabric-datagen": [
+      "${modgroup}.platform.datagen.FabricDataGeneratorEntrypoint"
+    ],
+    "modmenu": [
+      "${modgroup}.platform.fabric.ModMenuEntry"
+    ]
+  },
+  "mixins": [
+    "base-${modid}.mixins.json"
+  ],
+  "depends": {
+    "fabric-api": "*",
+    "forgeconfigapiport": "*",
+    "minecraft": ["~${minecraft}"],
+    "modmenu": "*"
+  }
+}

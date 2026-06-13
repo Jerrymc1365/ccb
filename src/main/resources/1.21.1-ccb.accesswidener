@@ -1,0 +1,9 @@
+accessWidener v2 named
+
+accessible class net/minecraft/client/renderer/FogRenderer$DarknessFogFunction
+accessible class net/minecraft/client/renderer/FogRenderer$MobEffectFogFunction
+accessible class net/minecraft/client/renderer/FogRenderer$MobEffectFogFunction
+accessible class net/minecraft/client/renderer/FogRenderer$BlindnessFogFunction
+accessible class net/minecraft/client/renderer/FogRenderer$FogData
+accessible class net/minecraft/client/renderer/block/model/BlockElement$Deserializer
+

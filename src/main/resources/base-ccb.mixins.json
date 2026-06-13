@@ -1,0 +1,16 @@
+{
+  "package": "org.infpancakefactory.ccb.core.mixin",
+  "required": true,
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_8",
+  "plugin": "org.infpancakefactory.ccb.core.mixin.ModMixinPlugin",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "MixinDisplayType",
+    "MixinStationTag_maxNameLengthUnlock"
+  ],
+  "client": [
+  ]
+}
