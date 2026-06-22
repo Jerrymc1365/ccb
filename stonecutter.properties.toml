@@ -4,7 +4,7 @@ deps.neoforge="21.1.228"
 
 deps.parchment="1.21.1:2024.11.17"
 
-deps.createrailwaynagivator="1.21.1-alpha-0.9.0-C6+2"
+deps.createrailwaynagivator="1.21.1-beta-0.9.0-C6"
 deps.create="6.0.10-280"
 deps.ponder="1.0.82"
 deps.flywheel="1.0.6"
